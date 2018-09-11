@@ -7,7 +7,6 @@ p{
 li{
 	display: inline;
 }
-img{
-	border-color: red;
-	border: 5px;
+img { 
+   border:10px solid #021a40;
 }
