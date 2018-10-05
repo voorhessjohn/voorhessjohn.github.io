@@ -33,6 +33,9 @@ i{
  	background-color: white;
  	height:2rem;
  }
+ .contactMain h1{
+ 	display:none;
+ }
  .skills{
  	background-color:white;
  	padding:.5rem 1rem .5rem 1rem;
