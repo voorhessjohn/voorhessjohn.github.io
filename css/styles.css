@@ -55,7 +55,7 @@ ul{
     text-align: center;
     color: black;
     margin-top: 3rem;
-    background-color:black;
+    /*background-color:black;*/
 }
 
 /* Bottom left text */
@@ -103,7 +103,7 @@ nav li {
 
 a {
 	text-decoration: none;
-	color:#9ABFFC;
+	color:black;
 }
 a:visited {
 	color:black;
