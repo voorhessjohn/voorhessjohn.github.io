@@ -20,7 +20,7 @@ i{
 .indexMain {
   display: grid;
   grid-template-columns:1fr 2fr 2fr;
-  column-gap:3rem;
+  column-gap:2rem;
  }
  .projectsMain {
   display: grid;
@@ -28,18 +28,7 @@ i{
   column-gap: 2rem;
   grid-row-gap:2rem;
  }
- .indexColC{
-	display: grid;
-	grid-template-rows:1fr;
-	column-gap: .5rem;
-	grid-row-gap:.5rem;
- }
- .indexColB{
-	display: grid;
-	grid-template-rows:1fr;
-	column-gap: .5rem;
-	grid-row-gap:.5rem;
- }
+ 
  .contactMain{
  	background-color: white;
  	height:2rem;
@@ -54,15 +43,18 @@ i{
  	background-color:#F7F7F7;
  	padding:.5rem 1rem .5rem 1rem;
  	box-shadow: 3px 3px 10px .1px #888888;
+ 	margin: 1rem 0 1rem 0;
  	
  }
  .odd{
  	background-color:white;
  	padding:.5rem 1rem .5rem 1rem;
  	box-shadow: 3px 3px 10px .1px #888888;
+ 	margin: 1rem 0 1rem 0;
  }
 ul{
  	list-style: none;
+ 	padding-left: 0;
  }
 .topImage {
 	position:relative;
@@ -71,7 +63,12 @@ ul{
     margin-top: 3rem;
     background-color:black;
 }
-
+.testimonialImage img{
+	float:left;
+	width:10vw;
+	border-radius: 10vw;
+	margin-right: 2vw;
+}
 
 /* Bottom left text */
 .imageText{
