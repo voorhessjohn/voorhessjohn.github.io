@@ -29,6 +29,10 @@ i{
   column-gap: 2rem;
   grid-row-gap:2rem;
  }
+ .contactMain{
+ 	background-color: white;
+ 	height:2rem;
+ }
  .skills{
  	background-color:white;
  	padding:.5rem 1rem .5rem 1rem;
@@ -55,7 +59,7 @@ ul{
     text-align: center;
     color: black;
     margin-top: 3rem;
-    /*background-color:black;*/
+    background-color:black;
 }
 
 /* Bottom left text */
@@ -129,6 +133,9 @@ a.current {
 }
 
 a:hover{
+	background-color: white;
+}
+footer{
 	background-color: white;
 }
 
