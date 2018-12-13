@@ -4,11 +4,19 @@
 	<meta charset="UTF-8">
 	<title>Rustyboyz</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<script>
+		function myFunction(elmnt, clr) {
+		  elmnt.style.color = clr;
+		}
+	</script>
 </head>
 <body class="rustyBoyz">
 <HEADER>
 <NAV>
+<a class="skip-main" href="#main">Skip to main content</a>
 	<ul>
 		<li><a href="index.html">About</a></li>
 		<li><a href="projects.html">Projects</a></li>
@@ -19,12 +27,46 @@
 </HEADER>
 <main>
 <DIV class="topImage">
-<img src="images/IMG_1190.gif" alt="A Toyota MR2 with a picture of a persian cat on it's hood.">
+	<img src="images/IMG_1190.gif" alt="A Toyota MR2 with a picture of a persian cat on it's hood.">
 <DIV class="imageText">
-<h1>RustyBoyz</h1>
+	<h1>RustyBoyz</h1>
 </DIV>
 </DIV>
-<DIV class="projectsMain">
+<div class="extraText" id="main">
+	<p>The images below are draggable. Click on one and drag it to another spot in the grid to try it for yourself.</p>
+</div>
+<div class = "gallery grid">
+	<div class="item"><div class="item-content"><a class="example-image-link" href="images/IMG_0423.gif" data-lightbox="example-set" data-title="My 1988 Chevrolet Suburban on the beach in Ocean Shores, Washington. Shortly after I bought this truck I drove it about three hours from Seattle to Ocean Shores where Em and I and two of her friends had rented a house on the beach for Thanksgiving. We all got licenses for razor clamming and I brought four clam guns and headlamps. We went out on the beach on a moonless night and caught our share of razor clams which we brought inside and turned into delicious chowder. I owned that truck for only about 8 months, but it was probably the coolest vehicle I've owned and suprisingly easy to drive despite being lifted several inches with 33-inch tires. I sold it when I moved closer to Em's neighborhood where I would have to hunt for street parking."><img class="example-image" src="images/IMG_0423_thumb.gif" alt="John's 1988 Chevrolet Suburban on the beach in Ocean Shores, Washington." onmouseover="changeText(this)"></a></div></div>
+
+	<div class="item"><div class="item-content"><a class="example-image-link" href="images/IMG_1190.gif" data-lightbox="example-set" data-title="A Toyota MR2 with a picture of a persian cat on it's hood. This MR2 could be spotted regularly in the Capitol Hill neighborhood in Seattle where I lived from 2015 to 2017. On this day, I was walking on Pike Street to get breakfast at my favorite diner, Lost Lake, and knew I had to capture this magical vehicle."><img src="images/IMG_1190_thumb.gif" alt="A Toyota MR2 with a picture of a persian cat on it's hood." onmouseover="changeText(this)"></a></div></div>
+
+	<div class="item"><div class="item-content"><a class="example-image-link" href="images/IMG_2264.gif" data-lightbox="example-set" data-title="The rusty rear fender of an early-2000s Ford Taurus. Aside from 'Live, Laugh, Love' signs hanging in kitchens, the closest thing to art in the Mid-West is the patterns of decay caused by salt and poor vehicle maintenance. On the West coast, you may be lucky enough to see an original 1975 Honda CVCC daily driven by its second owner. In the midwest, you're lucky if your Ford Taurus stays in one piece while you're still making payments."><img src="images/IMG_2264_thumb.gif" alt="The rusty rear fender of an early-2000s Ford Taurus." onmouseover="changeText(this)"></a></div></div>
+
+	<div class="item"><div class="item-content"><a class="example-image-link" href="images/IMG_2272.gif" data-lightbox="example-set" data-title="The rusty front bumper of a GMC Sierra. I still don't understand the necessity of having two brands that produce the same vehicles with slightly different badging. Sure, Cadillac shares GM platforms and produces upmarket versions, but a GMC Sierra and a Chevy Silverado are the SAME THING."><img src="images/IMG_2272_thumb.gif" alt="The rusty front bumper of a GMC Sierra." onmouseover="changeText(this)"></a></div></div>
+
+	<div class="item"><div class="item-content"><a class="example-image-link" href="images/IMG_2349.gif" data-lightbox="example-set" data-title="A late-80s Mustang GT on a lifted frame with off-road tires. This is my hometown. It's things like this on the side of the road that keep me from willingly admitting where I'm from. Well, that and the local history of overt racism including KKK marches and cross burnings as recently as the '90s."><img src="images/IMG_2349_thumb.gif" alt="A late-80s Mustang GT on a lifted frame with off-road tires." onmouseover="changeText(this)"></a></div></div>
+
+	<div class="item"><div class="item-content"><a class="example-image-link" href="images/IMG_2365.gif" data-lightbox="example-set" data-title="A 70s Chevrolet Monte Carlo with large chrome wheels in a parking garage. When we moved to Michigan, we moved in with my mom and things got a bit stressful. We reserved a last-minute room at the Motor City Casino for a quick 'vacation' and found this brilliant Monte in the parking garage. We played slots, drank $7 beers, got Little Caesar's room service, and watched Netflix in the huge jacuzzi tub. It was a much needed trashy escape."><img src="images/IMG_2365_thumb.gif" alt="A 70s Chevrolet Monte Carlo with large chrome wheels in a parking garage." onmouseover="changeText(this)"></a></div></div>
+
+	<div class="item"><div class="item-content"><a class="example-image-link" href="images/IMG_2389.gif" data-lightbox="example-set" data-title="A rusted late-90s Dodge Ram. Fun fact - I spent six months working on the assembly line in a factory under the approach to Metro Airport (DTW) building seats for the Dodge Ram and Dakota. Shortly after I quit, the factory lost its contract and all 300+ employees, including my family members, lost their jobs."><img src="images/IMG_2389_thumb.gif" alt="A rusted late-90s Dodge Ram." onmouseover="changeText(this)"></a></div></div>
+
+	<div class="item"><div class="item-content"><a class="example-image-link" href="images/IMG_2406.gif" data-lightbox="example-set" data-title="A Detroit police car in a McDonald's drive through with peeling paint and a rusty roof. The cops inside this rusted-out shit box were way too old to still be in uniform and easily exceeding the weight limit on their gun belts. Side note - the McDonalds down the street from our apartment in Detroit on Jefferson Ave. is the worst restaurant I've ever been to. A classmate was telling me that she lived near the same McDonalds and she said 'You know, the one where the shake machine never works.'"><img src="images/IMG_2406_thumb.gif" alt="A Detroit police car in a McDonald's drive through with peeling paint and a rusty roof." onmouseover="changeText(this)"></a></div></div>
+
+	<div class="item"><div class="item-content"><a class="example-image-link" href="images/IMG_2670.gif" data-lightbox="example-set" data-title="A newer orange Dodge Challenger covered in snow and salt in a parking lot. When we lived in Detroit, we both commuted 50 miles each way to work and go to school in Ann Arbor. Last winter was really tough."><img src="images/IMG_2670_thumb.gif" title="A newer orange Dodge Challenger covered in snow and salt in a parking lot." alt="A newer orange Dodge Challenger covered in snow and salt in a parking lot." onmouseover="changeText(this)"></a></div></div>
+
+	<div class="item"><div class="item-content"><a class="example-image-link" href="images/IMG_3042.gif" data-lightbox="example-set" data-title="The back of a box truck on a highway reads 'Long Load.' On our trip across the country moving from Seattle to Detroit, we saw some really interesting things. There's a lake in a former quarry in Butte, Montana where you can pay $2 to see the 'world's largest poisonous lake.' America, folks."><img src="images/IMG_3042_thumb.gif" alt="The back of a box truck on a highway reads 'Long Load.'" onmouseover="changeText(this)"></a></div></div>
+
+	<div class="item"><div class="item-content"><a class="example-image-link" href="images/IMG_3180.gif" data-lightbox="example-set" data-title="A Japanese Domestic Market Nissan Skyline R32 parked in Ann Arbor, MI. This person lives near me on Seventh Ave. in Ann Arbor and has really interesting taste in cars. The Skyline R32 onle recently became importable into the US since it is more than 25 year old and is no longer required to be certified to meet current emissions requirements to be imported. There are going to be some cool right-hand-drive cars imported in the next several years."><img src="images/IMG_3180_thumb.gif" alt="A Japanese Domestic Market Nissan Skyline R32 parked in Ann Arbor, MI." onmouseover="changeText(this)"></a></div></div>
+
+	<div class="item"><div class="item-content"><a class="example-image-link" href="images/IMG_3208.jpg" data-lightbox="example-set" data-title="A Ford F-Series pickup filled with pumpkins. Pretty cool sign-painting job on this truck."><img src="images/IMG_3208_thumb.gif" alt="A Ford F-Series pickup filled with pumpkins." onmouseover="changeText(this)"></a></div></div>
+
+	<div class="item"><div class="item-content"><a class="example-image-link" href="images/IMG_3213.gif" data-lightbox="example-set" data-title="Subaru parked on the street in Ann Arbor, MI with an anime-themed wrap on its hood. I don't even. . . I don't know. I mean, I guess if it makes you happy."><img src="images/IMG_3213_thumb.gif" alt="Subaru parked on the street in Ann Arbor, MI with an anime-themed wrap on its hood" onmouseover="changeText(this)"></a></div></div>
+</div>
+<div class="text" id="rustyboyzText">
+    <p>Hover over an image to view a short description.</p>
+</div>
+
+<!-- <DIV class="projectsMain">
 	<DIV class="odd">
 		<img src="images/IMG_0423.gif" alt="John's 1988 Chevrolet Suburban on the beach in Ocean Shores, Washington.">
 	</DIV>
@@ -55,9 +97,32 @@
 	<DIV class="even">
 		<img src="images/IMG_3042.gif" alt="The back of a box truck on a highway reads 'Long Load.'">
 	</DIV>
-</DIV>
+</DIV> -->
 </main>
 <footer>
 	<p>&copy; 2018 John Voorhess</p>
 </footer>
 </body>
+<script src="js/lightbox-plus-jquery.min.js"></script>
+<script src="https://unpkg.com/muuri@0.7.1/dist/muuri.min.js"></script>
+<script src="https://unpkg.com/web-animations-js@2.3.1/web-animations.min.js"></script>
+<script src="https://unpkg.com/hammerjs@2.0.8/hammer.min.js"></script>
+<script src="https://unpkg.com/muuri@0.7.1/dist/muuri.min.js"></script>
+<script type="text/javascript">
+// https://stackoverflow.com/questions/27930396/click-on-img-link-to-change-text-inside-a-div
+    function changeText(obj){
+
+        var div=document.getElementById('rustyboyzText');
+        div.innerHTML='';
+
+        var p=document.createElement('p');
+        p.appendChild(document.createTextNode(obj.alt));
+
+        div.appendChild(p);
+
+    }
+</script>
+<script>
+	var grid = new Muuri('.grid', {dragEnabled: true});
+</script>
+</html>
